@@ -1,0 +1,1 @@
+cat keywords.csv | python3 task1/mapper.py | sort -k 1 | python3 task1/reducer.py
